@@ -1,0 +1,19 @@
+module PPI_8255();
+
+input RD_bar;
+input WR_bar;
+input CS_bar;
+
+input A0;
+input A1;
+
+input RESET;
+
+inout [7:0]PA;
+inout [7:0]PB;
+inout [7:4]PC_u;
+inout [3:0]PC_l;
+inout [7:0]PD;
+
+
+endmodule
