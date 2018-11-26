@@ -1,0 +1,58 @@
+module data_bus_buffer_old(DIN, control_signal, DOUT, PD);
+
+output [7:0]DIN;
+//output of the tristate buffer into the internal bus
+
+input [7:0]DOUT;
+//input of the tristate buffer from the internal bus
+
+input control_signal;
+//determines the direction of the data bus (0 => output) (1 => input)
+
+inout [7:0]PD;
+//connected to the system data bus. Transfers data, control word or status information
+
+
+
+//_________________________________________________________________________________________//
+
+assign DIN = PD;
+//in case of output mode
+
+assign PD = (control_signal || control_signal == 1'bZ || control_signal == 1'bX)? DOUT: 8'bZZZZ_ZZZZ;
+//if control_signal==1 or Z or X => input  => DOUT goes into PD (input)
+//if control_signal==0           => output => DOUT is floating and derived externally (output)
+
+endmodule
+
+module test_data_bus_buffer_old();
+
+reg [7:0]DOUT;
+reg control_signal;
+wire [7:0]DIN;
+wire [7:0]PD;
+
+assign PD = control_signal? 8'bZZZZ_ZZZZ: 10;
+
+initial
+begin
+$monitor("%d %d %d %d", control_signal, DIN, DOUT, PD);
+DOUT <= 0;
+control_signal <= 1;
+
+#5
+control_signal <= 0;
+ 
+#5
+control_signal <= 1;
+
+#5
+control_signal <= 0;
+
+#5
+control_signal <= 1;
+
+end
+
+data_bus_buffer b1(DIN, control_signal, DOUT, PD);
+endmodule
