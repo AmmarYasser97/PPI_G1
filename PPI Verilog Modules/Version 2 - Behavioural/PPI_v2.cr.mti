@@ -1,8 +1,1 @@
-{C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/BSR_Mode_Testbench.v} {1 {vlog -work work -stats=none {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/BSR_Mode_Testbench.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
--- Compiling module BSR_Mode_Testbench
 
-Top level modules:
-	BSR_Mode_Testbench
-
-} {} {}}

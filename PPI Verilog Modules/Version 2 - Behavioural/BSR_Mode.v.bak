@@ -12,7 +12,7 @@ Control[0] is the bit showing if the selected bit should be set/reset
 set = 1 , reset = 0
 
 */
-always
+always @ (Control)
 begin
 Output[Control[3:1]] = Control[0];
 end

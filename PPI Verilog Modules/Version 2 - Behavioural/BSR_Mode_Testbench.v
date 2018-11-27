@@ -9,13 +9,13 @@ begin
 $monitor($time,,"Port D = %b  || Port C = %b",PortD,PortC);
 
 #5
-PortD = 8'b00001001;
+PortD = 8'b0xxx1001;
 #5
-PortD = 8'b00001101;
+PortD = 8'b0xxx1101;
 #5
-PortD = 8'b00000110;
+PortD = 8'b0xxx0110;
 #5
-PortD = 8'b0000010;
+PortD = 8'b0xxx0010;
 
 
 end
