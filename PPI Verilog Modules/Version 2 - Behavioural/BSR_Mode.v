@@ -1,0 +1,20 @@
+module BSR_Mode(Output,Control);
+
+
+//Defining the arguments and their address size
+output reg[7:0]Output;
+input [7:0]Control;
+
+/*
+
+The 3 control bits from 1->3 defines the selected bit from port C to set/reset
+Control[0] is the bit showing if the selected bit should be set/reset
+set = 1 , reset = 0
+
+*/
+always @ (Control)
+begin
+Output[Control[3:1]] = Control[0];
+end
+
+endmodule
