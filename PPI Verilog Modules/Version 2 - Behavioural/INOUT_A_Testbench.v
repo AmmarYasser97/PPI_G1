@@ -22,7 +22,7 @@ assign PortC = {PortC_U_reg,PortC_L_reg};
 
 initial
 begin
-$monitor("A = %b  ||  DATA = %d  || PortA = %d || PortC = %d || PortC = %d",A, DATA , PortA, PortB, PortC);
+$monitor("A = %b  ||  DATA = %d  || PortA = %d || PortB = %d || PortC = %d",A, DATA , PortA, PortB, PortC);
 
 READ <= 1;
 WRITE <= 0;
@@ -30,12 +30,21 @@ A = 2'b11;
 DATA_reg <= 8'b1001_1011;
 
 #10
-A = 2'b00;
-DATA_reg <= 7;
+READ <= 0;
+WRITE <= 1;
+A=00;
+PortA_reg <= 255;
 
 #10
-DATA_reg <= 14;
+PortA_reg <= 8;
 
+
+#10
+PortA_reg <= 9;
+#10
+PortA_reg <= 3;
+#10
+PortA_reg <= 1;
 end
 
 INOUT_Mode_Case a(A, WRITE , READ, DATA, PortA, PortB, PortC);
