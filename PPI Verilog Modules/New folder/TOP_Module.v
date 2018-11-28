@@ -10,7 +10,7 @@ inout [7:0]PortC;
 reg [7:0]Control_Register;
 wire[11:0] MODE;
 
-assign MODE ={RESET,A,READ,WRITE,CS,Control_Register};
+assign MODE ={RESET,READ,WRITE,CS,Control_Register};
 
 always @ (A,READ,WRITE,CS,RESET,DATA,PortA,PortB,PortC,Control_Register)
 begin
