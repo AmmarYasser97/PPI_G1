@@ -1,0 +1,252 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 3 -Project
+vBSR_Mode
+Z0 !s110 1543396994
+!i10b 1
+!s100 l>:nGo^:ogJ<j_1:FgXUj3
+Idd:zGY>?QBcz9BC<Do[4E0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder
+w1543395704
+8C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/BSR_Mode.v
+FC:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/BSR_Mode.v
+L0 1
+Z3 OV;L;10.5c;63
+r1
+!s85 0
+31
+Z4 !s108 1543396994.000000
+!s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/BSR_Mode.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/BSR_Mode.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@b@s@r_@mode
+vBSR_Mode_Testbench
+R0
+!i10b 1
+!s100 M1ikmig>6CC5A6X>J5=ZM3
+ISJ9M356Q7:N;3j0=4n[Ui2
+R1
+R2
+w1543392117
+8C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/BSR_Mode_Testbench.v
+FC:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/BSR_Mode_Testbench.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/BSR_Mode_Testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/BSR_Mode_Testbench.v|
+!i113 1
+R5
+R6
+n@b@s@r_@mode_@testbench
+vINOUT_A
+R0
+!i10b 1
+!s100 bQ_WaWK?zeV_1<^>HcP^N0
+IcE:ZUMzHGLba0BmBI@IeC1
+R1
+R2
+w1543337439
+8C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/INOUT_A.v
+FC:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/INOUT_A.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/INOUT_A.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/INOUT_A.v|
+!i113 1
+R5
+R6
+n@i@n@o@u@t_@a
+vINOUT_A_Testbench
+Z7 !s110 1543396995
+!i10b 1
+!s100 NY5;6;X;NWb@QD@8a_Ef<3
+I7:DWZ2;0boEe^oPVSZE6B0
+R1
+R2
+w1543386881
+8C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/INOUT_A_Testbench.v
+FC:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/INOUT_A_Testbench.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1543396995.000000
+!s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/INOUT_A_Testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/INOUT_A_Testbench.v|
+!i113 1
+R5
+R6
+n@i@n@o@u@t_@a_@testbench
+vINOUT_Mode
+R7
+!i10b 1
+!s100 lYW@hPj_5Ka3Z@KFDaEgA2
+IFFm`28_i[HzejBC?7Li>P3
+R1
+R2
+w1543330809
+8C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/INOUT_Mode.v
+FC:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/INOUT_Mode.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/INOUT_Mode.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/INOUT_Mode.v|
+!i113 1
+R5
+R6
+n@i@n@o@u@t_@mode
+vINOUT_Mode_Case
+R0
+!i10b 1
+!s100 1JWoBG5`:TO>M_^^Ih9>e1
+IGkUjd2>BiQ`4;^<BCc>0Z3
+R1
+R2
+w1543386607
+8C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/INOUT_Mode_Case.v
+FC:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/INOUT_Mode_Case.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/INOUT_Mode_Case.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/INOUT_Mode_Case.v|
+!i113 1
+R5
+R6
+n@i@n@o@u@t_@mode_@case
+vPPI_8255
+!s110 1543396996
+!i10b 1
+!s100 Q<HNcKPamPEg]?`dOITS<0
+IM4B]Tjn00>HkNCfQBOaIS0
+R1
+R2
+w1543396229
+8C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/TOP_Module.v
+FC:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/TOP_Module.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/TOP_Module.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/TOP_Module.v|
+!i113 1
+R5
+R6
+n@p@p@i_8255
+vRead_From_DATA
+R7
+!i10b 1
+!s100 MO37OUnB1ITC^PgWVY2n_2
+IzTDoAChk]^1KRBMJzYfm31
+R1
+R2
+w1543396990
+8C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/Read_From_DATA.v
+FC:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/Read_From_DATA.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/Read_From_DATA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/Read_From_DATA.v|
+!i113 1
+R5
+R6
+n@read_@from_@d@a@t@a
+vRead_From_DATA_Testbench
+R7
+!i10b 1
+!s100 DfQLKLF6V=`6HdOMgga_d2
+IQPT^Q8k3Rg8EY1F2@3XRI1
+R1
+R2
+w1543388258
+8C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/Read_From_DATA_Testbench.v
+FC:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/Read_From_DATA_Testbench.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/Read_From_DATA_Testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/Read_From_DATA_Testbench.v|
+!i113 1
+R5
+R6
+n@read_@from_@d@a@t@a_@testbench
+vWrite_On_DATA
+R7
+!i10b 1
+!s100 T_EJmiN@Cbf`k4Y]^Fma^0
+If79?H>UDHzJ;606d7U`Ei2
+R1
+R2
+w1543396560
+8C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/Write_On_DATA.v
+FC:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/Write_On_DATA.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/Write_On_DATA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/Write_On_DATA.v|
+!i113 1
+R5
+R6
+n@write_@on_@d@a@t@a
+vWrite_On_DATA_Testbench
+R7
+!i10b 1
+!s100 nz[I>HY;C5aXHfOQFhGi30
+IgAo0hB`^1JU;?Ae?LZgFW0
+R1
+R2
+w1543389365
+8C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/Write_On_DATA_Testbench.v
+FC:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/Write_On_DATA_Testbench.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/Write_On_DATA_Testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/Write_On_DATA_Testbench.v|
+!i113 1
+R5
+R6
+n@write_@on_@d@a@t@a_@testbench

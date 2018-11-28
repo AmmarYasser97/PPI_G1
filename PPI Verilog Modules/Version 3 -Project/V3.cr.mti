@@ -1,9 +1,9 @@
-{C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/BSR_Mode.v} {1 {vlog -work work -stats=none {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/BSR_Mode.v}
+{C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 3 - Control Module/Control_Register.v} {1 {vlog -work work -stats=none {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 3 - Control Module/Control_Register.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
--- Compiling module BSR_Mode
+-- Compiling module Control_Register
 
 Top level modules:
-	BSR_Mode
+	Control_Register
 
 } {} {}} {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_Mode.v} {1 {vlog -work work -stats=none {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_Mode.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
@@ -19,12 +19,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 Top level modules:
 	INOUT_A
 
-} {} {}} {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/BSR_Mode_Testbench.v} {1 {vlog -work work -stats=none {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/BSR_Mode_Testbench.v}
+} {} {}} {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/BSR_Mode.v} {1 {vlog -work work -stats=none {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/BSR_Mode.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
--- Compiling module BSR_Mode_Testbench
+-- Compiling module BSR_Mode
 
 Top level modules:
-	BSR_Mode_Testbench
+	BSR_Mode
 
 } {} {}} {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_A_Testbench.v} {1 {vlog -work work -stats=none {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_A_Testbench.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
@@ -32,6 +32,20 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 2
 
 Top level modules:
 	INOUT_A_Testbench
+
+} {} {}} {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/BSR_Mode_Testbench.v} {1 {vlog -work work -stats=none {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/BSR_Mode_Testbench.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module BSR_Mode_Testbench
+
+Top level modules:
+	BSR_Mode_Testbench
+
+} {} {}} {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 3 -Project/Control_Register_Testbench.v} {1 {vlog -work work -stats=none {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 3 -Project/Control_Register_Testbench.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module Control_Register_Testbench
+
+Top level modules:
+	Control_Register_Testbench
 
 } {} {}} {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_Mode_Case.v} {1 {vlog -work work -stats=none {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_Mode_Case.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017

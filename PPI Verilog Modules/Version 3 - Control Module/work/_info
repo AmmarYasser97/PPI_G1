@@ -52,28 +52,6 @@ R4
 R5
 R6
 n@b@s@r_@mode_@testbench
-vControl_Register
-!s110 1543355870
-!i10b 1
-!s100 zFLD4[Q035KIz^=X`Ih1K2
-ITgYHGCb8S5i]bbieKiTbl0
-R1
-R2
-w1543355858
-8C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 3 - Control Module/Control_Register.v
-FC:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 3 - Control Module/Control_Register.v
-L0 1
-R3
-r1
-!s85 0
-31
-!s108 1543355870.000000
-!s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 3 - Control Module/Control_Register.v|
-!s90 -reportprogress|300|-work|work|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 3 - Control Module/Control_Register.v|
-!i113 1
-R5
-R6
-n@control_@register
 vINOUT_A
 Z7 !s110 1543351258
 !i10b 1
@@ -118,28 +96,6 @@ R10
 R5
 R6
 n@i@n@o@u@t_@a_@testbench
-vINOUT_mode
-!s110 1543328089
-!i10b 1
-!s100 T_3j?oe;<]Q:SihRERbUm3
-I6MU0Lkl:`1HB1T53[eil;2
-R1
-R2
-w1543328083
-Z13 8C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_Mode.v
-Z14 FC:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_Mode.v
-L0 1
-R3
-r1
-!s85 0
-31
-!s108 1543328089.000000
-Z15 !s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_Mode.v|
-Z16 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_Mode.v|
-!i113 1
-R5
-R6
-n@i@n@o@u@t_mode
 vINOUT_Mode
 R7
 !i10b 1
@@ -148,6 +104,28 @@ IdU5265ENFNQX9:RG0FK_g3
 R1
 R2
 w1543330809
+Z13 8C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_Mode.v
+Z14 FC:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_Mode.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+Z15 !s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_Mode.v|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_Mode.v|
+!i113 1
+R5
+R6
+n@i@n@o@u@t_@mode
+vINOUT_mode
+!s110 1543328089
+!i10b 1
+!s100 T_3j?oe;<]Q:SihRERbUm3
+I6MU0Lkl:`1HB1T53[eil;2
+R1
+R2
+w1543328083
 R13
 R14
 L0 1
@@ -155,13 +133,13 @@ R3
 r1
 !s85 0
 31
-R4
+!s108 1543328089.000000
 R15
 R16
 !i113 1
 R5
 R6
-n@i@n@o@u@t_@mode
+n@i@n@o@u@t_mode
 vINOUT_Mode_Case
 R7
 !i10b 1

@@ -22,10 +22,10 @@ assign PortB = (READ && ~WRITE)? PortB_reg: 8'bzzzz_zzzz;
 assign PortC = (READ && ~WRITE)? {PortC_U_reg,PortC_L_reg}: 8'bzzzz_zzzz;
 
 //register to save the last control register
-reg [7:0]CReg;
-wire [7:0]Control_Register;
-assign CReg= Control_Register;
-Control_Register CR(A, WRITE , READ, DATA, Control_Register);
+
+reg [7:0]Control_Register;
+
+
 
 always @ (WRITE, READ, A)
 begin
@@ -38,11 +38,11 @@ PortB_reg = PortB;
 //if (A == 3 && READ && ~WRITE)
 //Control_Register = DATA_reg;
 
-casez({A, READ, WRITE, CReg[6:0]})
+casez({A, READ, WRITE, Control_Register[6:0]})
 
 //11'b1110_??????? : Control_Register = DATA_reg;
 
-11'b0001_001zzzz : DATA_reg = PortA_reg;
+11'b0001_001zzzz : begin DATA_reg = PortA_reg; end
 11'b0101_zzzz01z : DATA_reg = PortB_reg;
 11'b1001_00z1zzz : DATA_reg = PortC_U_reg;
 11'b1001_zzzz0z1 : DATA_reg = PortC_L_reg;

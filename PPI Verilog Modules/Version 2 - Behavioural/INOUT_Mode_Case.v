@@ -1,4 +1,4 @@
-module INOUT_Mode_Case(A, WRITE , READ, DATA, PortA, PortB, PortC);
+module INOUT_Mode_Case(A, WRITE , READ,DATA, PortA, PortB, PortC);
 
 //Defining the arguments and their address size
 input [1:0] A;
@@ -22,7 +22,10 @@ assign PortB = (READ && ~WRITE)? PortB_reg: 8'bzzzz_zzzz;
 assign PortC = (READ && ~WRITE)? {PortC_U_reg,PortC_L_reg}: 8'bzzzz_zzzz;
 
 //register to save the last control register
-reg [7:0]Control_Register;
+reg [7:0]CReg;
+wire [7:0]Control_Register;
+
+Control_Register CR(A, WRITE , READ, DATA, Control_Register);
 
 always @ (WRITE, READ, A)
 begin
@@ -31,11 +34,11 @@ DATA_reg = DATA;
 PortA_reg = PortA;
 PortB_reg = PortB;
 {PortC_U_reg, PortC_L_reg} = PortC;
+CReg= Control_Register;
+//if (A == 3 && READ && ~WRITE)
+//Control_Register = DATA_reg;
 
-if (A == 3 && READ && ~WRITE)
-Control_Register = DATA_reg;
-
-casez({A, READ, WRITE, Control_Register[6:0]})
+casez({A, READ, WRITE, CReg[6:0]})
 
 //11'b1110_??????? : Control_Register = DATA_reg;
 
