@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 3 -Project
 vBSR_Mode
-Z0 !s110 1543396994
+Z0 !s110 1543397629
 !i10b 1
 !s100 l>:nGo^:ogJ<j_1:FgXUj3
 Idd:zGY>?QBcz9BC<Do[4E0
@@ -23,7 +23,7 @@ Z3 OV;L;10.5c;63
 r1
 !s85 0
 31
-Z4 !s108 1543396994.000000
+Z4 !s108 1543397629.000000
 !s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/BSR_Mode.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/BSR_Mode.v|
 !i113 1
@@ -53,7 +53,7 @@ R5
 R6
 n@b@s@r_@mode_@testbench
 vINOUT_A
-R0
+Z7 !s110 1543397630
 !i10b 1
 !s100 bQ_WaWK?zeV_1<^>HcP^N0
 IcE:ZUMzHGLba0BmBI@IeC1
@@ -75,7 +75,7 @@ R5
 R6
 n@i@n@o@u@t_@a
 vINOUT_A_Testbench
-Z7 !s110 1543396995
+R7
 !i10b 1
 !s100 NY5;6;X;NWb@QD@8a_Ef<3
 I7:DWZ2;0boEe^oPVSZE6B0
@@ -89,7 +89,7 @@ R3
 r1
 !s85 0
 31
-Z8 !s108 1543396995.000000
+Z8 !s108 1543397630.000000
 !s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/INOUT_A_Testbench.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/INOUT_A_Testbench.v|
 !i113 1
@@ -141,13 +141,13 @@ R5
 R6
 n@i@n@o@u@t_@mode_@case
 vPPI_8255
-!s110 1543396996
+!s110 1543397631
 !i10b 1
-!s100 Q<HNcKPamPEg]?`dOITS<0
-IM4B]Tjn00>HkNCfQBOaIS0
+!s100 e=V]bo5Wo[Z?k7ok8f3F80
+IH@Y=dWfLUQT]^ZYbOje>_2
 R1
 R2
-w1543396229
+w1543397543
 8C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/TOP_Module.v
 FC:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/TOP_Module.v
 L0 1
@@ -155,7 +155,7 @@ R3
 r1
 !s85 0
 31
-R8
+!s108 1543397631.000000
 !s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/TOP_Module.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder/TOP_Module.v|
 !i113 1
