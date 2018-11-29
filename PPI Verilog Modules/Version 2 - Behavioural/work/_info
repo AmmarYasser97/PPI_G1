@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Users/hp/Desktop/drasa/3rd Comp/CO/Verilog
 vBSR_Mode
-Z0 !s110 1543351257
+Z0 !s110 1543436044
 !i10b 1
 !s100 SeHm`8gUWoOf7Mib:Q75W0
 IM@fH:5ngGAlND>FU4aI;61
@@ -23,7 +23,7 @@ Z3 OV;L;10.5c;63
 r1
 !s85 0
 31
-Z4 !s108 1543351257.000000
+Z4 !s108 1543436044.000000
 !s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/BSR_Mode.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/BSR_Mode.v|
 !i113 1
@@ -75,29 +75,29 @@ R5
 R6
 n@control_@register
 vINOUT_A
-Z7 !s110 1543351258
+R0
 !i10b 1
 !s100 bQ_WaWK?zeV_1<^>HcP^N0
 I^F@DX:gQW`=Vk2`>RJRhZ3
 R1
 R2
 w1543337439
-Z8 8C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_A.v
-Z9 FC:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_A.v
+Z7 8C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_A.v
+Z8 FC:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_A.v
 L0 1
 R3
 r1
 !s85 0
 31
-Z10 !s108 1543351258.000000
-Z11 !s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_A.v|
-Z12 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_A.v|
+R4
+Z9 !s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_A.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_A.v|
 !i113 1
 R5
 R6
 n@i@n@o@u@t_@a
 vINOUT_A_Testbench
-R7
+R0
 !i10b 1
 !s100 aZznMkW6lnWUm_kjo<cOW1
 In;0nUj:A;Eno>e?;US]BJ3
@@ -111,7 +111,7 @@ R3
 r1
 !s85 0
 31
-R10
+R4
 !s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_A_Testbench.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_A_Testbench.v|
 !i113 1
@@ -126,50 +126,50 @@ I6MU0Lkl:`1HB1T53[eil;2
 R1
 R2
 w1543328083
-Z13 8C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_Mode.v
-Z14 FC:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_Mode.v
+Z11 8C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_Mode.v
+Z12 FC:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_Mode.v
 L0 1
 R3
 r1
 !s85 0
 31
 !s108 1543328089.000000
-Z15 !s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_Mode.v|
-Z16 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_Mode.v|
+Z13 !s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_Mode.v|
+Z14 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_Mode.v|
 !i113 1
 R5
 R6
 n@i@n@o@u@t_mode
 vINOUT_Mode
-R7
+R0
 !i10b 1
 !s100 lYW@hPj_5Ka3Z@KFDaEgA2
 IdU5265ENFNQX9:RG0FK_g3
 R1
 R2
 w1543330809
-R13
-R14
+R11
+R12
 L0 1
 R3
 r1
 !s85 0
 31
 R4
-R15
-R16
+R13
+R14
 !i113 1
 R5
 R6
 n@i@n@o@u@t_@mode
 vINOUT_Mode_Case
-R7
+Z15 !s110 1543436045
 !i10b 1
-!s100 eVdOaoV:hP?=h_99U=HnF2
-IaYzln::]LafVZ22=b1WWZ2
+!s100 l?h<ozk;PRhTTPBMj?j?k0
+IHK^Z0n@H_T6I4b<8G_PV^1
 R1
 R2
-w1543351253
+w1543359696
 8C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_Mode_Case.v
 FC:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_Mode_Case.v
 L0 1
@@ -177,13 +177,56 @@ R3
 r1
 !s85 0
 31
-R10
+R4
 !s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_Mode_Case.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/INOUT_Mode_Case.v|
 !i113 1
 R5
 R6
 n@i@n@o@u@t_@mode_@case
+vnew
+R15
+!i10b 1
+!s100 hAGIHQ:O[mOE4XUA:ze_a2
+IZJaWmAVEV^^h50Uh1:cF?1
+R1
+R2
+w1543436042
+8C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/ew_test.v
+FC:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/ew_test.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z16 !s108 1543436045.000000
+!s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/ew_test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/ew_test.v|
+!i113 1
+R5
+R6
+vNew_TOP
+R15
+!i10b 1
+!s100 W7[1zI=1YeM`LL5e>on`B0
+IhZYYbUQLlCR^ekX;dVBRL1
+R1
+R2
+w1543435515
+8C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/New_TOP.v
+FC:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/New_TOP.v
+L0 1
+R3
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/New_TOP.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/New_TOP.v|
+!i113 1
+R5
+R6
+n@new_@t@o@p
 vtest_PortA
 !s110 1543334540
 !i10b 1
@@ -192,17 +235,102 @@ Ic9NPM>G07QG]g02oI6BQC2
 R1
 R2
 w1543333027
+R7
 R8
-R9
 L0 33
 R3
 r1
 !s85 0
 31
 !s108 1543334540.000000
-R11
-R12
+R9
+R10
 !i113 1
 R5
 R6
 ntest_@port@a
+vtompmodule_testbench
+!s110 1543424211
+!i10b 1
+!s100 EhTRRA7NbQf^aZ[a@B17g3
+I65zRgioCOjD^CgaK0M`WX2
+R1
+R2
+w1543424199
+Z17 8C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/TOP_Module_Testbench.v
+Z18 FC:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/TOP_Module_Testbench.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1543424211.000000
+Z19 !s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/TOP_Module_Testbench.v|
+Z20 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/TOP_Module_Testbench.v|
+!i113 1
+R5
+R6
+vtompmodule_testbench1
+!s110 1543426073
+!i10b 1
+!s100 `>BKzfVPFC:Dg<kUi9STc2
+I>;[RiSDnWz9F7kLWnMFEP3
+R1
+R2
+w1543426070
+R17
+R18
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1543426073.000000
+R19
+R20
+!i113 1
+R5
+R6
+vtompmodule_testbench2
+R15
+!i10b 1
+!s100 1?S__90z:@iGd0d[XdDO33
+ILaT@5YXNQ:HdSTTgnA`[f1
+R1
+R2
+w1543429939
+R17
+R18
+L0 1
+R3
+r1
+!s85 0
+31
+R16
+R19
+R20
+!i113 1
+R5
+R6
+vTOP_PPI
+R15
+!i10b 1
+!s100 3lfYIFaO>m>V1NW4``D1e3
+I@deB[Ug=L<`JX7QQY2oAB3
+R1
+R2
+w1543424787
+8C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/TOP_PPI.v
+FC:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/TOP_PPI.v
+L0 1
+R3
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/TOP_PPI.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/Version 2 - Behavioural/TOP_PPI.v|
+!i113 1
+R5
+R6
+n@t@o@p_@p@p@i

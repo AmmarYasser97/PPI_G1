@@ -1,0 +1,57 @@
+{C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder (2)/BSR_Mode_Testbench.v} {1 {vlog -work work -stats=none {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder (2)/BSR_Mode_Testbench.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module BSR_Mode_Testbench
+
+Top level modules:
+	BSR_Mode_Testbench
+
+} {} {}} {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder (2)/TOP_Module_Testbench.v} {1 {vlog -work work -stats=none {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder (2)/TOP_Module_Testbench.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module tompmodule_testbench2
+
+Top level modules:
+	tompmodule_testbench2
+
+} {} {}} {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder (2)/BSR_Mode.v} {1 {vlog -work work -stats=none {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder (2)/BSR_Mode.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module BSR_Mode
+
+Top level modules:
+	BSR_Mode
+
+} {} {}} {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder (2)/Write_On_DATA_Testbench.v} {1 {vlog -work work -stats=none {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder (2)/Write_On_DATA_Testbench.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module Write_On_DATA_Testbench
+
+Top level modules:
+	Write_On_DATA_Testbench
+
+} {} {}} {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder (2)/Read_From_DATA_Testbench.v} {1 {vlog -work work -stats=none {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder (2)/Read_From_DATA_Testbench.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module Read_From_DATA_Testbench
+
+Top level modules:
+	Read_From_DATA_Testbench
+
+} {} {}} {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder (2)/TOP_Module.v} {1 {vlog -work work -stats=none {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder (2)/TOP_Module.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module PPI_8255
+
+Top level modules:
+	PPI_8255
+
+} {} {}} {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder (2)/Write_On_DATA.v} {1 {vlog -work work -stats=none {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder (2)/Write_On_DATA.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module Write_On_DATA
+
+Top level modules:
+	Write_On_DATA
+
+} {} {}} {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder (2)/Read_From_DATA.v} {1 {vlog -work work -stats=none {C:/Users/hp/Documents/GitHub/PPI_G1/PPI Verilog Modules/New folder (2)/Read_From_DATA.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module Read_From_DATA
+
+Top level modules:
+	Read_From_DATA
+
+} {} {}}

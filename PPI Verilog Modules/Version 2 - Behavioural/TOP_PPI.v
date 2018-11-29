@@ -1,0 +1,49 @@
+module TOP_PPI(A,READ,WRITE,CS,RESET,DATA,PortA,PortB,PortC);
+
+input [1:0]A;
+input READ,WRITE,CS,RESET;
+
+inout [7:0]DATA;
+inout [7:0]PortA;
+inout [7:0]PortB;
+inout [7:0]PortC;
+
+reg [7:0]PortC_BSR;
+
+
+reg [7:0]Control_Register;
+wire[13:0] MODE;
+
+assign PortC =(READ && ~WRITE && ~CS && ~RESET)?PortC_BSR:8'bzzzz_zzzz;
+
+always @ (A,READ,WRITE,CS,RESET,DATA,PortA,PortB,PortC)
+begin
+PortC_BSR <= PortC;
+if(~DATA[7])
+begin
+
+PortC_BSR[DATA[3:1]] = DATA[0];
+
+
+end
+
+
+
+if(A[0] && A[1] && READ && ~WRITE && ~CS && ~RESET)
+begin
+Control_Register = DATA;
+end
+
+
+if(RESET)
+begin
+//Setting all Ports to Input mode
+Control_Register = 8'b10011011;
+end
+
+end
+
+
+
+
+endmodule

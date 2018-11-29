@@ -7,14 +7,48 @@ inout [7:0]PortA;
 inout [7:0]PortB;
 inout [7:0]PortC;
 
+reg [7:0]DATA_reg;
+reg [7:0]PortA_reg;
+reg [7:0]PortB_reg;
+reg [7:0]PortC_reg;
+
 reg [7:0]Control_Register;
 wire[11:0] MODE;
 
-assign MODE ={RESET,A,READ,WRITE,CS,Control_Register};
+/*
+
+reg DATA_flag;
+reg PortA_flag;
+reg PortB_flag;
+reg PortC_flag;
+
+assign DATA = (~DATA_flag)? DATA_reg: 8'bzzzz_zzzz;
+
+assign PortA = (~PortA_flag)? PortA_reg: 8'bzzzz_zzzz;
+assign PortB = (~PortB_flag)? PortB_reg: 8'bzzzz_zzzz;
+assign Portc = (~PortC_flag)? PortC_reg: 8'bzzzz_zzzz;
+
+always @ (RESET,CS,A,WRITE,READ,DATA)
+begin
+DATA_flag <= (READ && ~WRITE)? 0: 1;
+
+PortA_flag <= (~READ && WRITE && A==0)? 0: 1;
+PortB_flag <= (~READ && WRITE && A==1)? 0: 1;
+PortC_flag <= (~READ && WRITE && A==2)? 0: 1;
+
+DATA_reg = (DATA_flag)? DATA: 8'bzzzz_zzzz;
+
+PortA_reg = (PortA_flag)? PortA:8'bzzzz_zzzz;
+PortB_reg = (PortB_flag)? PortB:8'bzzzz_zzzz;
+PortC_reg = (PortC_flag)? PortC:8'bzzzz_zzzz;
+end 
+*/
+
+assign MODE ={RESET,READ,WRITE,CS,Control_Register};
 
 always @ (A,READ,WRITE,CS,RESET,DATA,PortA,PortB,PortC,Control_Register)
 begin
-if(WRITE && READ && ~CS && ~RESET)
+if(A[0] && A[1] && READ && ~WRITE && ~CS && ~RESET)
 begin
 Control_Register = DATA;
 end
@@ -27,7 +61,7 @@ end
 
 end
 
-Write_On_DATA(DATA, PortA, PortB, PortC, A,MODE);
-Read_From_DATA(PortA, PortB, PortC, A,MODE, DATA);
+Write_On_DATA WOD(DATA, PortA, PortB, PortC, A,MODE);
+Read_From_DATA RFD(PortA, PortB, PortC, A,MODE, DATA);
 BSR_Mode BSR(PortC,~DATA[7],RESET,DATA);
 endmodule
